@@ -7,5 +7,3 @@ while True:
         break
     except (ValueError, ZeroDivisionError):
         print("Fehler bei der Berechnung!")
-    
-

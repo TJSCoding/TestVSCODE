@@ -2,7 +2,7 @@
 
 
 def text_verschluesseln(text):
-"""Verschlüsselt den übergebenen Text und gibt ihn zurück"""
+    """Verschlüsselt den übergebenen Text und gibt ihn zurück"""
     verschluesselung = text[::-1]
     verschluesselung = verschluesselung.replace("e", "#")
     verschluesselung = verschluesselung.replace("a", "?")
@@ -10,7 +10,7 @@ def text_verschluesseln(text):
     return verschluesselung
 
 def text_entschluesseln(text):
-"""Entschlüsselt den übergebenen Text und gibt ihn zurück"""
+    """Entschlüsselt den übergebenen Text und gibt ihn zurück"""
     entschluesselung = text[::-1]
     entschluesselung = entschluesselung.replace("#", "e")
     entschluesselung = entschluesselung.replace("?", "a")
