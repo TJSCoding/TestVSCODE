@@ -19,7 +19,7 @@ if not os.path.exists("D:/vscode/company.db"):
     query = '''SELECT * FROM running order by distance'''
     dbcursor.execute(query)
     ausgabe = dbcursor.fetchall()
-    print (ausgabe)
+    print (ausgabe)aa
 
     connection.close()
 else:
