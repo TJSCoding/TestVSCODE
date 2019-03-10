@@ -9,6 +9,6 @@ datei.flush()
 einkauf = ["Eier","Milch","Mehr"]
 datei.write("\n".join(einkauf))
 datei.write("\n-----\n")
-datei.writelines(einkauf)
+datei.writelines(einkauf) #hallo
 
 datei.close()
