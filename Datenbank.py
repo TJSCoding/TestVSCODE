@@ -21,7 +21,7 @@ if not os.path.exists("D:/vscode/company.db"):
     ausgabe = dbcursor.fetchall()
     print (ausgabe)aa
 
-    connection.close()
+    connection.close() #test
 else:
     print("DB vorhanden")
 
